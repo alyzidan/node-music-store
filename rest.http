@@ -2,6 +2,15 @@ POST http://localhost:3333/postSongs HTTP/1.1
 content-type: application/json
 
 {
-      "name":"Happy Birthday",
-      "artist":"Zizo"
+      "name":"Zizo Song",
+      "artist":"Zizo Artist"
+}
+
+### 
+
+DELETE http://localhost:3333/deleteSong HTTP/1.1
+content-type: application/json
+
+{
+      "id" : "7"
 }
